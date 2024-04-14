@@ -1,0 +1,26 @@
+{
+  "name": "sorting_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node --max-old-space-size=500 ./build/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirsenya/sorting_app.git"
+  },
+  "author": "Arseny Stefanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirsenya/sorting_app/issues"
+  },
+  "homepage": "https://github.com/sirsenya/sorting_app#readme",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
